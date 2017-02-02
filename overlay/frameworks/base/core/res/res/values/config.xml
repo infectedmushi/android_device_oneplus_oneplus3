@@ -51,7 +51,7 @@
     </integer-array>
 
     <!-- OOS brightness tweaks -->
-    <integer name="config_autoBrightnessBrighteningLightFastDebounce">500</integer>
+    <!--<integer name="config_autoBrightnessBrighteningLightFastDebounce">500</integer>-->
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
