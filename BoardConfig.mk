@@ -38,9 +38,6 @@ TARGET_USE_CM_RAMDISK := true
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 USE_LOCAL_GNSSPPS := true
-# Use Audio and Wlan files from here
-USE_DEVICE_AUDIO_CONFIGS := true
-USE_DEVICE_WLAN_CONFIGS := true
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
