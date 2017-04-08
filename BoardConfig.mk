@@ -62,6 +62,9 @@ ENABLE_CPUSETS := true
 
 TARGET_USES_64_BIT_BINDER := true
 
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-gnu-6.3/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff
 BOARD_KERNEL_BASE := 0x80000000
@@ -74,7 +77,6 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
 TARGET_KERNEL_CONFIG := lineageos_oneplus3_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
