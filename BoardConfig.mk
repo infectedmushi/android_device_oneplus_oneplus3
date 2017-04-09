@@ -80,6 +80,9 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
 TARGET_KERNEL_CONFIG := oneplus3_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-gnu-5.4/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
