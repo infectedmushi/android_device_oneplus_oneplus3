@@ -20,13 +20,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
 
-PRODUCT_NAME := lineage_oneplus3
+# Inherit Carbon GSM telephony parts
+ $(call inherit-product, vendor/carbon/config/gsm.mk)
+
+PRODUCT_NAME := carbon_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
+
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carbon.maintainer="drakonizer"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
