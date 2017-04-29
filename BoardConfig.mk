@@ -75,7 +75,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
-TARGET_KERNEL_CONFIG := du_oneplus3_defconfig
+TARGET_KERNEL_CONFIG := lineageos_oneplus3_defconfig
 
 
 # QCOM hardware
