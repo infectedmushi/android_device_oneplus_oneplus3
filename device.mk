@@ -298,6 +298,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.msm8996
