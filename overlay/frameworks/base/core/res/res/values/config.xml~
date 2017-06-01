@@ -437,6 +437,8 @@
 
     <bool name="config_fingerprintRemoveClientOnCancel">true</bool>
 
+<<<<<<< HEAD
+=======
     <!-- Keep chosen default camera app pinned in memory for faster launching -->
     <bool name="config_pinnerCameraApp">true</bool>
 
@@ -461,4 +463,5 @@
        <item>0x44C</item>      <!-- CPUBOOST MIN_FREQ resource value--> -->
    </integer-array>
 
+>>>>>>> f3b35ee... Overlay: Add initial Boost overlay
 </resources>
