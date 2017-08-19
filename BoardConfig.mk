@@ -32,8 +32,6 @@ TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 BOARD_VENDOR := oneplus
 
-SDCLANG := true
-
 # RIL
 TARGET_RIL_VARIANT := caf
 
